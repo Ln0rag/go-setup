@@ -1,7 +1,7 @@
 # go-setup
 
 A simple Bash command to install and configure the latest stable Go version on Linux.
-
+![](screenshot.png)
 ## What it does
 * Detects the system architecture.
 * Downloads the latest stable Go release from the official Go website.
