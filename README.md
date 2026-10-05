@@ -102,6 +102,3 @@ which go && \
 go env GOROOT GOPATH GOBIN && \
 ls "$HOME/go/bin"
 ```
-## License
-
-Add your preferred license here.
