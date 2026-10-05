@@ -2,7 +2,7 @@
 
 Install and update the latest stable Go version on Linux with a single command.
 
-![](screenshot.png)
+![](install-screenshot.png)
 
 ## What it does
 
@@ -76,6 +76,7 @@ go env GOROOT GOPATH GOBIN
 ```
 
 ### 2. Already installed with the command above? Update Go
+![](update-screenshot.png)
 
 This replaces only `/usr/local/go`.
 Your tools installed with `go install` (such as `subfinder`, `httpx`, `nuclei`) live in `~/go/bin` and are **not** removed.
