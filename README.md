@@ -4,34 +4,6 @@ Install and update the latest stable Go version on Linux with a single command.
 
 ![](install-screenshot.png)
 
-## What it does
-
-* Detects the system architecture.
-* Downloads the latest stable Go release from the official Go website.
-* Verifies the archive before touching your existing installation.
-* Removes conflicting `golang-go` packages installed through apt (install only).
-* Installs Go under `/usr/local/go`.
-* Configures `GOPATH` and adds Go and Go binaries to `PATH` (install only).
-* Detects Bash, Zsh, or falls back to `~/.profile`.
-* Verifies the installed Go version and environment.
-
-## Supported Architectures
-
-* `amd64`
-* `arm64`
-* `armv6l`
-* `386`
-
-## Requirements
-
-* Linux
-* `curl`
-* `tar`
-* `sudo`
-* `apt-get` is optional
-
-## Installation
-
 ### 1. First time? Install Go
 
 ```bash
@@ -76,6 +48,7 @@ go env GOROOT GOPATH GOBIN
 ```
 
 ### 2. Already installed with the command above? Update Go
+
 ![](update-screenshot.png)
 
 This replaces only `/usr/local/go`.
